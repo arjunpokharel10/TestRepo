@@ -5,10 +5,6 @@
 # ● Their product
 # ● Their division (handle the case where division by zero might occur).
 
-
-from decimal import DivisionByZero
-
-
 def take_numbers_for_calculation():
     num_digits = []
     for i in range(2):
