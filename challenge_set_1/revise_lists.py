@@ -7,7 +7,7 @@
 def remove_duplicates_and_sort_given_numbers():
     x = input("enter some numeric values in digits, separated by space: ")
     x = list(set(map(int, x.replace(',',' ').split())))
-    x = sorted(x)
+    x.sort()
     print(f"the input in sorted order, and without duplicates, is: {x}\nthe smallest is {x[0]} and the largest is {x[-1]}")
 
 remove_duplicates_and_sort_given_numbers()

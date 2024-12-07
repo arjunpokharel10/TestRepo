@@ -1,0 +1,12 @@
+OOP - object oriented programming
+
+one of the paradigms in programmaing
+4 pillars: polymorphism, encapsulation, abstraction, inheritance
+
+
+
+
+
+
+--------
+design pattern (relevant to django)
