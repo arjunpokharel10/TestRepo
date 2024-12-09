@@ -7,10 +7,11 @@
 
 def vowel_counter():
     string = input("enter a word or a phrase:")
+    reversed_string = string[::-1]
     vowel = "aeiou"
 #    counter = sum(1 for char in string if char in vowel)  # another way to do, which replaces the 4 lines below
     counter = 0
-    for i in string:
+    for i in reversed_string:
         if i in vowel:
             counter += 1
 
